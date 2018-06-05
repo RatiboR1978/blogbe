@@ -1,0 +1,34 @@
+.list {
+  &__item {
+    margin-bottom: 43px;
+  }
+
+  &__item:last-child {
+    margin-bottom: 0;
+  }
+
+  &__item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item ul li{
+    line-height: 21px;
+  }
+
+  &__item ul li a{
+    color: black;
+    opacity: .6;
+    span {
+      color: #b2b2b2;
+    }
+  }
+
+  &__show {
+    display: block;
+    color: $accent-color;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+}

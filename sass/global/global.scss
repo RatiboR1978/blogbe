@@ -1,0 +1,78 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  position: relative;
+  font-family: Roboto-Regular, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Roboto-Black, Arial, sans-serif;
+}
+
+h1, h2 {
+  font-size: 2.57rem;
+}
+
+h3 {
+   font-size: 2.142rem;
+ }
+
+h4 {
+  font-size: 1.714rem;
+}
+
+h5 {
+  font-size: 1.286rem;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.source {
+  display: block;
+  font-size: 11px;
+  color: #8d8d8d;
+}
+
+.black {
+  color: black;
+}
+
+.black:hover {
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
+.sidebar {
+  padding-right: 20px;
+}
+
+.container {
+  max-width: 1360px;
+  padding-left: 30px;
+  padding-right: 110px;
+  margin: 28px auto 105px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
