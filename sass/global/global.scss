@@ -48,6 +48,7 @@ img {
   display: block;
   font-size: 11px;
   color: #8d8d8d;
+  line-height: 18px;
 }
 
 .black {
@@ -61,8 +62,26 @@ img {
 .center {
   text-align: center;
 }
+
+.left {
+  margin: 0;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
 .sidebar {
-  padding-right: 20px;
+  float: left;
+}
+
+.post-padding {
+  padding-top: 38px;
+  padding-bottom: 33px;
+  border-bottom: 1px solid #cccccc;
+  padding-left: 94px;
+  padding-right: 85px;
 }
 
 .container {
@@ -72,7 +91,4 @@ img {
   margin: 28px auto 105px;
 }
 
-.wrap {
-  display: flex;
-  justify-content: space-between;
-}
+

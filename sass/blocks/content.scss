@@ -1,4 +1,6 @@
 .content {
+  max-width: 1050px;
+  margin-left: 286px;
   h1 {
     text-align: center;
     margin-bottom: 35px;
@@ -9,6 +11,10 @@
     padding-right: 28px;
     padding-bottom: 37px;
     border-bottom: 1px solid #cccccc;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
   }
 
   &__photo-title {
@@ -41,11 +47,6 @@
   }
 
   &__three-photos {
-    padding-top: 38px;
-    padding-bottom: 33px;
-    border-bottom: 1px solid #cccccc;
-    padding-left: 94px;
-    padding-right: 85px;
     flex-wrap: wrap;
     h4 {
       margin-bottom: 12px;
@@ -54,6 +55,60 @@
 
   &__three-photo {
     max-width: 270px;
-    padding-bottom: 33px;
+  }
+
+  &__post {
+    margin-bottom: 30px;
+    justify-content: flex-start;
+  }
+
+  &__post:last-child {
+    margin-bottom: 0;
+  }
+
+  &__post-photo {
+    margin-right: 30px;
+    img {
+      min-width: 270px;
+    }
+  }
+
+  &__post-title {
+    h3 {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+  }
+
+  &__pagination {
+    margin: 30px auto 220px;
+    max-width: 310px;
+  }
+
+  &__list-pagination {
+    padding: 0;
+    li {
+      display: inline;
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__item-pagination {
+    color: black;
+    font-family: Roboto-Black, Arial, sans-serif;
+    padding: 11px 17px;
+    border: 1px solid;
+  }
+
+  &__item-pagination:hover {
+    border-color: $accent-color;
+  }
+
+  &__item-pagination--active {
+    border-color: $accent-color;
   }
 }
