@@ -454,9 +454,6 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.sidebar {
-  float: left; }
-
 .post-padding {
   padding-top: 38px;
   padding-bottom: 33px;
@@ -506,7 +503,7 @@ img {
 
 .content {
   max-width: 1050px;
-  margin-left: 286px; }
+  margin-left: 15%; }
   .content h1 {
     text-align: center;
     margin-bottom: 35px; }
