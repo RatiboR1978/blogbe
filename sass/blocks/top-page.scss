@@ -1,0 +1,27 @@
+.top-page {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 25px;
+
+  &__search {
+    width: 271px;
+    height: 34px;
+    margin: 0;
+    input {
+      font-size: 14px;
+      padding: 8px 7px;
+    }
+
+    img {
+      top: 5px;
+      right: 8px;
+    }
+  }
+
+  nav a {
+    color: $accent-color;
+    margin-right: 24px;
+  }
+}

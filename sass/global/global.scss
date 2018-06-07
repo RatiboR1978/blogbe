@@ -72,6 +72,20 @@ img {
   justify-content: space-between;
 }
 
+.block-left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.block-right {
+  flex: 4;
+}
+
+.sidebar {
+  padding-top: 30px;
+  float: right;
+}
+
 .post-padding {
   padding-top: 38px;
   padding-bottom: 33px;
