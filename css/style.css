@@ -731,12 +731,12 @@ img {
         text-decoration: underline; }
 
 .post-text {
-  padding-left: 12%;
-  padding-top: 25px; }
+  padding-left: 14%;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  max-width: 1050px; }
   .post-text h4 {
     font-size: 1.142rem; }
-  .post-text__wrap {
-    max-width: 1050px; }
   .post-text__left-but {
     font-size: 1.143rem;
     margin-bottom: 27px; }
@@ -749,8 +749,7 @@ img {
     max-width: 730px;
     font-size: 1.143rem;
     line-height: 24px;
-    position: relative;
-    padding-right: 70px; }
+    position: relative; }
   .post-text__left-content::before {
     position: absolute;
     content: '';
@@ -790,5 +789,28 @@ img {
     width: 70px;
     height: 61px;
     min-width: 70px; }
+  .post-text__right {
+    max-width: 400px;
+    padding-right: 50px; }
+  .post-text__left {
+    max-width: 520px; }
   .post-text__item {
     margin-bottom: 20px; }
+
+.map {
+  max-width: 1050px;
+  height: 300px;
+  margin-left: 12%;
+  background: url("../img/map.jpg") no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.related-posts {
+  padding-left: 12%;
+  margin-bottom: 63px; }
+  .related-posts h2 {
+    font-size: 3.428rem; }
+  .related-posts__border {
+    margin-top: 40px;
+    max-width: 1050px;
+    border-bottom: 1px solid #cccccc; }

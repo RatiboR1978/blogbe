@@ -1,13 +1,13 @@
 .post-text {
-  padding-left: 12%;
+  padding-left: 14%;
   padding-top: 25px;
+  padding-bottom: 45px;
+  max-width: 1050px;
   h4 {
     font-size: 1.142rem;
   }
 
-  &__wrap {
-    max-width: 1050px;
-  }
+
 
   &__left-but {
     font-size: 1.143rem;
@@ -25,7 +25,6 @@
     font-size: 1.143rem;
     line-height: 24px;
     position: relative;
-    padding-right: 70px;
   }
 
   &__left-content::before {
@@ -74,6 +73,15 @@
       height: 61px;
       min-width: 70px;
     }
+  }
+
+  &__right {
+    max-width: 400px;
+    padding-right: 50px;
+  }
+
+  &__left {
+    max-width: 520px;
   }
 
   &__item {

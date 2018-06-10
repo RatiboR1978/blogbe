@@ -1,0 +1,13 @@
+.related-posts {
+  padding-left: 12%;
+  margin-bottom: 63px;
+  h2 {
+    font-size: 3.428rem;
+  }
+
+  &__border {
+    margin-top: 40px;
+    max-width: 1050px;
+    border-bottom: 1px solid #cccccc;
+  }
+}
