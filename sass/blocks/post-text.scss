@@ -7,16 +7,17 @@
     font-size: 1.142rem;
   }
 
-
-
   &__left-but {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 1.143rem;
-    margin-bottom: 27px;
+    margin-bottom: 17px;
     a {
       color: $accent-color;
       padding: 10px;
       border: 1px solid $accent-color;
       margin-right: 10px;
+      margin-bottom: 10px;
     }
   }
 
@@ -48,11 +49,14 @@
     font-family: Roboto-Black, Arial, sans-serif;
     background-color: #fff;
     border: none;
-    font-size: 2.57rem;
+    font-size: 2rem;
     color: $accent-color;
     text-decoration: underline;
     position: relative;
     cursor: pointer;
+    @media (min-width: 715px) {
+      font-size: 2.57rem;
+    }
   }
 
   &__but::before {
@@ -82,6 +86,7 @@
 
   &__left {
     max-width: 520px;
+    margin-right: 20px;
   }
 
   &__item {

@@ -7,27 +7,41 @@
   &__text {
     width: 90%;
     background-color: rgba(0, 0, 0, .8);
-    padding-bottom: 20px;
     position: absolute;
-    bottom: 4px;
+    bottom: 2px;
     left: 10%;
     color: white;
-    p:first-child {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    @media (min-width: 1200px) {
       padding-top: 40px;
-      padding-left: 30px;
+      padding-bottom: 20px;
+      bottom: 4px;
+    }
+
+    p:first-child {
       margin-top: 0;
-      margin-bottom: 32px;
+      margin-bottom: 10px;
       max-width: 710px;
       font-family: Roboto-Black, Arial, sans-serif;
-      font-size: 3.428rem;
+      font-size: 2.428rem;
+      padding-left: 17px;
+      @media (min-width: 1200px) {
+        font-size: 3.428rem;
+        padding-left: 30px;
+        margin-bottom: 32px;
+      }
     }
 
     p:last-child {
-      padding-left: 30px;
       margin: 0;
       a {
         color: white;
         text-decoration: underline;
+      }
+      padding-left: 17px;
+      @media (min-width: 1200px) {
+        padding-left: 30px;
       }
     }
 

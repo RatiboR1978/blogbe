@@ -2,13 +2,23 @@
   padding-left: 25px;
 
   article {
-    max-width: 490px;
+    max-width: 350px;
+    @media (min-width: 850px) {
+      max-width: 490px;
+    }
   }
 
   h2 {
     margin-top: 0;
     margin-bottom: 6px;
     color: #a4a4a4;
+  }
+
+  &__list {
+    flex-direction: column;
+    @media (min-width: 850px) {
+      flex-direction: row;
+    }
   }
 
   .content__search {
@@ -21,6 +31,16 @@
   &__left {
     max-width: 500px;
     margin-right: 28px;
+    margin-bottom: 30px;
+    @media (min-width: 850px) {
+      flex-direction: row;
+    }
+    article {
+      max-width: 350px;
+      @media (min-width: 850px) {
+        max-width: 490px;
+      }
+    }
   }
 
   &__right {
@@ -43,9 +63,9 @@
   &__item-title {
     max-width: 446px;
     position: absolute;
-    bottom: 4px;
+    bottom: 2px;
     left: 0;
-    padding: 7px;
+    padding: 8px;
     background-color: rgba(0, 0, 0, .8);
     @media (min-width: 1000px) {
       padding: 17px;
@@ -55,6 +75,9 @@
       a {
         color: white;
       }
+    }
+    @media (min-width: 1333px) {
+      bottom: 4px;
     }
   }
 

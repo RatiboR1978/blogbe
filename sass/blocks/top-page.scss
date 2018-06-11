@@ -6,12 +6,18 @@
   margin-bottom: 25px;
 
   &__search {
-    width: 271px;
+    width: 200px;
     height: 34px;
     margin: 0;
+    @media (min-width: 715px) {
+      width: 271px;
+    }
     input {
-      font-size: 14px;
+      font-size: 12px;
       padding: 8px 7px;
+      @media (min-width: 715px) {
+        font-size: 14px;
+      }
     }
 
     img {

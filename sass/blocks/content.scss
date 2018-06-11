@@ -83,8 +83,11 @@
   }
 
   &__pagination {
-    margin: 30px auto 220px;
+    margin: 30px auto 120px;
     max-width: 310px;
+    @media (min-width: 1000px) {
+      margin: 30px auto 220px;
+    }
   }
 
   &__list-pagination {
