@@ -1,5 +1,8 @@
 html {
-  font-size: 14px;
+  font-size: 10px;
+  @media (min-width: 1300px) {
+    font-size: 14px;
+  }
 }
 
 body {
@@ -74,24 +77,28 @@ img {
 
 .block-left {
   flex: 1;
-  padding-right: 20px;
 }
 
 .block-right {
-  flex: 4;
+  flex: 7;
 }
 
 .sidebar {
   padding-top: 30px;
   float: right;
+  margin-left: 20px;
 }
 
 .post-padding {
   padding-top: 38px;
   padding-bottom: 33px;
   border-bottom: 1px solid #cccccc;
-  padding-left: 94px;
-  padding-right: 85px;
+  padding-left: 60px;
+  padding-right: 50px;
+  @media (min-width: 1300px) {
+    padding-left: 94px;
+    padding-right: 85px;
+  }
 }
 
 .container {

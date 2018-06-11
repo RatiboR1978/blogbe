@@ -5,7 +5,12 @@
   &__photo {
     margin-right: 30px;
     img {
-      min-width: 270px;
+      min-width: 168px;
+      max-width: 168px;
+      @media (min-width: 1300px) {
+        min-width: 270px;
+        max-width: 270px;
+      }
     }
   }
 
@@ -22,10 +27,13 @@
   }
 
   &__small {
-    min-width: 220px;
+    min-width: 135px;
     max-width: 220px;
     overflow: hidden;
     margin-right: 14px;
+    @media (min-width: 1300px) {
+      min-width: 220px;
+    }
   }
 }
 

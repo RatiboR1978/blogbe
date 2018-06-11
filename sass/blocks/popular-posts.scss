@@ -25,6 +25,10 @@
 
   &__right {
     flex-grow: 4;
+    margin-right: 20px;
+    @media (min-width: 1300px) {
+      margin-right: 0;
+    }
   }
 
   &__item {
@@ -41,8 +45,11 @@
     position: absolute;
     bottom: 4px;
     left: 0;
-    padding: 17px;
+    padding: 7px;
     background-color: rgba(0, 0, 0, .8);
+    @media (min-width: 1000px) {
+      padding: 17px;
+    }
     h4 {
       margin: 0;
       a {
