@@ -23,11 +23,17 @@ h1, h2 {
 }
 
 h3 {
-   font-size: 2.142rem;
+   font-size: 1.5rem;
+  @media (min-width: 400px) {
+    font-size: 2.142rem;
+  }
  }
 
 h4 {
-  font-size: 1.714rem;
+  font-size: 1.4rem;
+  @media (min-width: 400px) {
+    font-size: 1.714rem;
+  }
 }
 
 h5 {
@@ -77,6 +83,10 @@ img {
 
 .block-left {
   flex: 1;
+  display: none;
+  @media (min-width: 641px) {
+    display: block;
+  }
 }
 
 .block-right {
@@ -93,8 +103,12 @@ img {
   padding-top: 38px;
   padding-bottom: 33px;
   border-bottom: 1px solid #cccccc;
-  padding-left: 60px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 20px;
+  @media (min-width: 400px) {
+    padding-left: 60px;
+    padding-right: 50px;
+  }
   @media (min-width: 1300px) {
     padding-left: 94px;
     padding-right: 85px;

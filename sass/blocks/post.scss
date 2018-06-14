@@ -5,8 +5,12 @@
   &__photo {
     margin-right: 30px;
     img {
-      min-width: 168px;
-      max-width: 168px;
+      min-width: 100px;
+      max-width: 100px;
+      @media (min-width: 500px) {
+        min-width: 168px;
+        max-width: 168px;
+      }
       @media (min-width: 1300px) {
         min-width: 270px;
         max-width: 270px;
@@ -27,10 +31,13 @@
   }
 
   &__small {
-    min-width: 135px;
+    min-width: 111px;
     max-width: 220px;
     overflow: hidden;
     margin-right: 14px;
+    @media (min-width: 400px) {
+      min-width: 135px;
+    }
     @media (min-width: 1300px) {
       min-width: 220px;
     }
