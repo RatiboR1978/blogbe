@@ -90,7 +90,7 @@ img {
 }
 
 .block-right {
-  flex: 7;
+  flex: 6;
 }
 
 .sidebar {
@@ -100,12 +100,14 @@ img {
 }
 
 .post-padding {
-  padding-top: 38px;
-  padding-bottom: 33px;
+  padding-top: 28px;
+  padding-bottom: 03px;
   border-bottom: 1px solid #cccccc;
   padding-left: 30px;
   padding-right: 20px;
   @media (min-width: 400px) {
+    padding-top: 38px;
+    padding-bottom: 33px;
     padding-left: 60px;
     padding-right: 50px;
   }

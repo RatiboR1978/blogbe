@@ -25,8 +25,9 @@
 
   &__header-title {
     display: flex;
-    flex-direction: column-reverse;
+    flex-wrap: wrap;
     h1 {
+      order: 2;
       font-size: 1.4rem;
       text-align: left;
       @media (min-width: 560px) {
