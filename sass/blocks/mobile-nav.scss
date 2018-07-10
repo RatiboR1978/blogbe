@@ -1,0 +1,52 @@
+.mobile-nav {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  @media (min-width: 641px) {
+    display: none;
+  }
+  &__wrap {
+    justify-content: space-around;
+  }
+  &__item {
+    font-family: Roboto-Black, Arial, sans-serif;
+    font-size: 1.7rem;
+    padding: 20px 20px 20px 14px;
+    border: none;
+    background-color: #e9e9e9;
+    position: relative;
+    cursor: pointer;
+    @media (min-width: 390px) {
+      font-size: 1.9rem;
+      padding: 20px 25px 20px 25px;
+    }
+    @media (min-width: 475px) {
+      padding: 24px 39px;
+    }
+    @media (min-width: 575px) {
+      font-size: 2.9rem;
+    }
+  }
+  &__item:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid black;
+    top: 27px;
+    right: 9px;
+    @media (min-width: 475px) {
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 8px solid black;
+      top: 31px;
+      right: 19px;
+    }
+    @media (min-width: 575px) {
+      top: 37px;
+      right: 20px;
+    }
+  }
+}
+
