@@ -1,8 +1,9 @@
 .post {
-  margin-bottom: 30px;
+  margin-bottom: 29px;
   justify-content: flex-start;
 
   &__photo {
+    font-size: 0;
     margin-right: 30px;
     img {
       min-width: 100px;

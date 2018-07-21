@@ -19,26 +19,29 @@ h1, h2, h3, h4, h5 {
 }
 
 h1, h2 {
-  font-size: 2.57rem;
+  font-size: 36px;
+  letter-spacing: 0.05rem;
 }
 
 h3 {
    font-size: 1.5rem;
   @media (min-width: 400px) {
-    font-size: 2.142rem;
+    font-size: 30px;
+    letter-spacing: 0.05rem;
   }
  }
 
 h4 {
   font-size: 1.4rem;
   @media (min-width: 400px) {
-    font-size: 1.714rem;
+    font-size: 24px;
+    letter-spacing: 0.05rem;
   }
 }
 
 h5 {
   font-size: 1.286rem;
-  margin-bottom: 16px;
+  margin-bottom: 7px;
   margin-top: 0;
 }
 
@@ -76,52 +79,68 @@ img {
   margin: 0;
 }
 
+#points {
+  font-size: 35px;
+  margin: 0 8px;
+}
+
+
 .wrap {
   display: flex;
   justify-content: space-between;
 }
 
 .block-left {
-  flex: 1;
   display: none;
   @media (min-width: 641px) {
     display: block;
   }
 }
 
-.block-right {
-  flex: 6;
+.content2 {
+  max-width: 1000px;
 }
 
 .sidebar {
+  width: 196px;
   padding-top: 30px;
-  float: right;
-  margin-left: 20px;
+  margin-left: 31px;
 }
 
 .post-padding {
   padding-top: 28px;
-  padding-bottom: 03px;
-  border-bottom: 1px solid #cccccc;
+  padding-bottom: 3px;
+  position: relative;
   padding-left: 30px;
   padding-right: 20px;
   @media (min-width: 400px) {
-    padding-top: 38px;
-    padding-bottom: 33px;
+    padding-top: 32px;
+    padding-bottom: 31px;
     padding-left: 60px;
     padding-right: 50px;
   }
   @media (min-width: 1300px) {
-    padding-left: 94px;
-    padding-right: 85px;
+    padding-left: 64px;
   }
 }
 
-.container {
-  max-width: 1360px;
-  padding-left: 30px;
-  padding-right: 110px;
-  margin: 28px auto 105px;
+.popular-content {
+  max-width: 1050px;
+  margin: 0 auto;
 }
+
+.post-padding:before {
+  @media (min-width: 641px) {
+    position: absolute;
+    content: '';
+    width: 1050px;
+    height: 1px;
+    background-color: #cccccc;
+    bottom: 5px;
+    left: -27px;
+  }
+}
+
+
 
 
