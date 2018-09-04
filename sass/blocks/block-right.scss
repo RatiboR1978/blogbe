@@ -1,5 +1,6 @@
 .block-right {
   width: 100%;
+
   &__header {
     padding: 0 15px;
     display: flex;
@@ -7,7 +8,7 @@
     @media (min-width: 400px) {
       padding: 0;
     }
-    @media (min-width: 641px) {
+    @media (min-width: 1500px) {
       display: block;
     }
   }
@@ -15,34 +16,27 @@
   &__header-logo {
     margin-top: 20px;
     margin-right: 10%;
-    @media (min-width: 641px) {
+    @media (min-width: 1500px) {
       display: none;
     }
     a {
-      font-size: 2.9rem;
-      line-height: 20px;
-      @media (min-width: 565px) {
         font-size: 4.9rem;
         line-height: 40px;
       }
-    }
   }
 
   &__header-title {
-    display: flex;
-    flex-wrap: wrap;
+    order: 2;
     h1 {
-      order: 2;
       text-align: left;
-      @media (min-width: 641px) {
+      @media (min-width: 1500px) {
         text-align: center;
-      }
-      @media (min-width: 641px) {
         margin-top: 53px;
         margin-bottom: 26px;
       }
+
     }
-    @media (min-width: 641px) {
+    @media (min-width: 1500px) {
       display: block;
       margin: 0 auto;
     }
@@ -52,7 +46,9 @@
     margin-top: 20px;
     margin-bottom: 0;
     width: 100%;
-    @media (min-width: 641px) {
+    order: 1;
+    @media (min-width: 1500px) {
+      order: 2;
       margin-top: 0;
       margin-bottom: 36px;
     }

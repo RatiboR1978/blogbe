@@ -6,4 +6,9 @@
     color: $accent-color;
     line-height: 8px;
   }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+  }
 }

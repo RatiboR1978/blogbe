@@ -92,7 +92,7 @@ img {
 
 .block-left {
   display: none;
-  @media (min-width: 641px) {
+  @media (min-width: 1500px) {
     display: block;
   }
 }
@@ -130,7 +130,7 @@ img {
 }
 
 .post-padding:before {
-  @media (min-width: 641px) {
+  @media (min-width: 1500px) {
     position: absolute;
     content: '';
     width: 1050px;

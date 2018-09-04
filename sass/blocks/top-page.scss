@@ -9,13 +9,13 @@
     width: 200px;
     height: 34px;
     margin: 0;
-    @media (min-width: 715px) {
+    @media (min-width: 1500px) {
       width: 271px;
     }
     input {
       font-size: 12px;
       padding: 8px 7px;
-      @media (min-width: 715px) {
+      @media (min-width: 1500px) {
         font-size: 14px;
       }
     }
