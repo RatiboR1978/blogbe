@@ -515,7 +515,7 @@ img {
   position: relative;
   padding-top: 16px;
   padding-bottom: 15px;
-  padding-left: 18px;
+  padding-left: 26px;
   padding-right: 2px; }
   @media (min-width: 640px) {
     .post-padding {
@@ -562,6 +562,9 @@ img {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column; }
+    @media (max-width: 639px) {
+      .header__wrap {
+        width: 170px; } }
 
 .list__item {
   margin-bottom: 35px; }
@@ -679,10 +682,10 @@ img {
         max-width: 408px; } }
     .content__search img {
       position: absolute;
-      width: 20px;
-      height: 20px;
-      right: 4px;
-      top: 3px; }
+      width: 15px;
+      height: 15px;
+      right: 6px;
+      top: 6px; }
       @media (min-width: 640px) {
         .content__search img {
           width: 23px;
@@ -729,6 +732,9 @@ img {
         color: black; }
       .content__input-search::placeholder {
         color: black; } }
+  @media (max-width: 1499px) {
+    .content__three-photos {
+      border-bottom: 1px solid #cccccc; } }
   .content__three-photos h4 {
     margin-top: 2px;
     margin-bottom: 7px; }
@@ -758,6 +764,9 @@ img {
       .content__three-photo:last-child {
         display: inline-block;
         margin-right: 0; } }
+  @media (max-width: 639px) {
+    .content__three-photo:first-child {
+      margin-right: 6px; } }
   .content__post {
     margin-bottom: 30px;
     -webkit-box-pack: start;
@@ -777,7 +786,7 @@ img {
     margin: -8px 0 43px 20px; }
     @media (min-width: 640px) {
       .content__pagination {
-        margin: -4px 0 87px 40px; } }
+        margin: 55px 0 87px 40px; } }
     @media (min-width: 1500px) {
       .content__pagination {
         margin: 30px auto 220px;
@@ -786,9 +795,16 @@ img {
     padding-bottom: 62px;
     margin-bottom: 30px;
     padding-right: 39px; }
+    @media (min-width: 640px) {
+      .content__list-post {
+        padding-bottom: 30px; } }
+    @media (max-width: 1499px) {
+      .content__list-post {
+        border-bottom: 1px solid #cccccc; } }
     @media (min-width: 1500px) {
       .content__list-post {
-        padding-right: 93px; } }
+        padding-right: 93px;
+        padding-bottom: 62px; } }
   .content__list-pagination {
     padding: 0; }
     .content__list-pagination li {
@@ -945,6 +961,9 @@ img {
               justify-content: flex-start; } }
   .post__photo {
     font-size: 0; }
+    @media (max-width: 639px) {
+      .post__photo {
+        width: 300px; } }
     @media (min-width: 1500px) {
       .post__photo {
         margin-right: 30px; } }

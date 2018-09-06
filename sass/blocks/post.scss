@@ -7,6 +7,9 @@
 
   &__photo {
     font-size: 0;
+    @media (max-width: 639px) {
+      width: 300px;
+    }
     @media (min-width: 1500px) {
       margin-right: 30px;
     }

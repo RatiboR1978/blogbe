@@ -99,10 +99,10 @@
     }
     img {
       position: absolute;
-      width: 20px;
-      height: 20px;
-      right: 4px;
-      top: 3px;
+      width: 15px;
+      height: 15px;
+      right: 6px;
+      top: 6px;
       @media (min-width: 640px) {
         width: 23px;
         height: 23px;
@@ -141,6 +141,9 @@
   }
 
   &__three-photos {
+    @media (max-width: 1499px) {
+      border-bottom: 1px solid #cccccc;
+    }
     h4 {
       margin-top: 2px;
       margin-bottom: 7px;
@@ -177,6 +180,12 @@
     margin-right: 0;
   }
 
+  &__three-photo:first-child {
+    @media (max-width: 639px) {
+      margin-right: 6px;
+    }
+  }
+
   &__post {
     margin-bottom: 30px;
     justify-content: flex-start;
@@ -203,7 +212,7 @@
   &__pagination {
     margin: -8px 0 43px 20px;
     @media (min-width: 640px) {
-      margin: -4px 0 87px 40px;
+      margin: 55px 0 87px 40px;
     }
     @media (min-width: 1500px) {
       margin: 30px auto 220px;
@@ -215,8 +224,15 @@
     padding-bottom: 62px;
     margin-bottom: 30px;
     padding-right: 39px;
+    @media (min-width: 640px) {
+      padding-bottom: 30px;
+    }
+    @media (max-width: 1499px) {
+      border-bottom: 1px solid #cccccc;
+    }
     @media (min-width: 1500px) {
       padding-right: 93px;
+      padding-bottom: 62px;
     }
   }
 
