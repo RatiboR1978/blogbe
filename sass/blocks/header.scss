@@ -1,10 +1,13 @@
 .header {
-  margin-bottom: 35px;
-  &__logo a {
-    font-family: LuckiestGuy, Arial, sans-serif;
-    font-size: 22px;
-    color: $accent-color;
-    line-height: 8px;
+  margin-bottom: 32px;
+  &__logo  {
+    width: 93px;
+    @media (min-width: 640px) {
+      width: 187px;
+    }
+    @media (min-width: 1500px) {
+      width: 71px;
+    }
   }
 
   &__wrap {

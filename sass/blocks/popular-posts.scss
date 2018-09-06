@@ -1,10 +1,7 @@
 .popular-posts {
-
+  padding-left: 21px;
   article {
-    max-width: 350px;
-    @media (min-width: 1500px) {
-      max-width: 522px;
-    }
+    max-width: 522px;
   }
 
   h2 {

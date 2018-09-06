@@ -18,24 +18,39 @@ h1, h2, h3, h4, h5 {
   font-family: Roboto-Black, Arial, sans-serif;
 }
 
-h1, h2 {
-  font-size: 36px;
+h2 {
+  font-size: 18px;
   letter-spacing: 0.05rem;
+  @media (min-width: 640px) {
+    font-size: 36px;
+  }
+}
+
+h1 {
+  font-size: 12px;
+  letter-spacing: 0.05rem;
+  @media (min-width: 640px) {
+    font-size: 24px;
+    white-space: pre-line;
+  }
+  @media (min-width: 1500px) {
+    font-size: 36px;
+  }
 }
 
 h3 {
-   font-size: 1.5rem;
-  @media (min-width: 400px) {
+  font-size: 15px;
+  letter-spacing: 0.05rem;
+  @media (min-width: 640px) {
     font-size: 30px;
-    letter-spacing: 0.05rem;
   }
  }
 
 h4 {
-  font-size: 1.4rem;
-  @media (min-width: 400px) {
-    font-size: 24px;
+    font-size: 12px;
     letter-spacing: 0.05rem;
+  @media (min-width: 640px) {
+    font-size: 24px;
   }
 }
 
@@ -58,9 +73,16 @@ img {
 
 .source {
   display: block;
-  font-size: 11px;
+  font-size: 9px;
   color: #8d8d8d;
-  line-height: 18px;
+  line-height: 9px;
+  @media (min-width: 640px) {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  @media (min-width: 1500px) {
+    font-size: 11px;
+  }
 }
 
 .black {
@@ -81,7 +103,10 @@ img {
 
 #points {
   font-size: 35px;
-  margin: 0 8px;
+  margin: 0 23px;
+  @media (min-width: 1500px) {
+    margin: 0 8px;
+  }
 }
 
 
@@ -97,30 +122,27 @@ img {
   }
 }
 
-.content2 {
-  max-width: 1000px;
-}
-
 .sidebar {
-  width: 196px;
+  width: 171px;
   padding-top: 30px;
   margin-left: 31px;
 }
 
 .post-padding {
-  padding-top: 28px;
-  padding-bottom: 3px;
   position: relative;
-  padding-left: 30px;
-  padding-right: 20px;
-  @media (min-width: 400px) {
+  padding-top: 16px;
+  padding-bottom: 15px;
+  padding-left: 18px;
+  padding-right: 2px;
+  @media (min-width: 640px) {
     padding-top: 32px;
     padding-bottom: 31px;
-    padding-left: 60px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 4px;
   }
-  @media (min-width: 1300px) {
-    padding-left: 64px;
+  @media (min-width: 1500px) {
+    padding-left: 86px;
+    padding-right: 93px;
   }
 }
 
