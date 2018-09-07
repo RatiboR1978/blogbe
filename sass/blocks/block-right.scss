@@ -8,7 +8,7 @@
     @media (min-width: 640px) {
       padding: 26px 39px 0 39px;
     }
-    @media (min-width: 1500px) {
+    @media (min-width: 1200px) {
       padding: 0;
       display: block;
     }
@@ -21,7 +21,7 @@
       margin-top: 20px;
       margin-right: 10%;
     }
-    @media (min-width: 1500px) {
+    @media (min-width: 1200px) {
       display: none;
     }
   }
@@ -30,14 +30,14 @@
     order: 2;
     h1 {
       text-align: left;
-      @media (min-width: 1500px) {
+      @media (min-width: 1200px) {
         text-align: center;
         margin-top: 53px;
         margin-bottom: 26px;
       }
 
     }
-    @media (min-width: 1500px) {
+    @media (min-width: 1200px) {
       display: block;
       margin: 0 auto;
     }
@@ -51,7 +51,7 @@
     @media (min-width: 640px) {
       margin-top: 20px;
     }
-    @media (min-width: 1500px) {
+    @media (min-width: 1200px) {
       order: 2;
       margin-top: 0;
       margin-bottom: 36px;
