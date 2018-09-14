@@ -1,47 +1,53 @@
 .post-title {
   position: relative;
+  overflow: hidden;
   img {
     width: 100%;
+    height: 440px;
+    object-fit: cover;
+    @media (min-width: 1200px) {
+      height: auto;
+    }
   }
 
   &__text {
-    width: 90%;
+    width: 100%;
     background-color: rgba(0, 0, 0, .8);
     position: absolute;
-    bottom: 2px;
-    left: 10%;
+    bottom: 4px;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 32px;
+    padding-bottom: 35px;
+    padding-left: 38px;
     @media (min-width: 1200px) {
-      padding-top: 40px;
+      padding-top: 22px;
       padding-bottom: 20px;
-      bottom: 4px;
+      padding-left: 30px;
+      left: 150px;
     }
 
     p:first-child {
       margin-top: 0;
-      margin-bottom: 10px;
-      max-width: 710px;
+      margin-bottom: 4px;
+      max-width: 499px;
       font-family: Roboto-Black, Arial, sans-serif;
       font-size: 2.428rem;
-      padding-left: 17px;
       @media (min-width: 1200px) {
+        max-width: 710px;
         font-size: 3.428rem;
-        padding-left: 30px;
-        margin-bottom: 32px;
+        margin-bottom: 25px;
       }
     }
 
     p:last-child {
       margin: 0;
+      font-size: 18px;
       a {
         color: white;
         text-decoration: underline;
       }
-      padding-left: 17px;
       @media (min-width: 1200px) {
-        padding-left: 30px;
+        font-size: 14px;
       }
     }
 

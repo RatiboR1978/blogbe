@@ -1,8 +1,10 @@
 .map {
-  max-width: 1050px;
-  height: 300px;
-  margin-left: 12%;
-  background: url("../img/map.jpg") no-repeat;
+  height: 250px;
+  background: url("../img/map.jpg") no-repeat 50% 50%;
   background-size: cover;
-  margin-right: 2%;
+  margin: 0 auto;
+  @media (min-width: 1200px) {
+    height: 300px;
+    max-width: 1050px;
+  }
 }

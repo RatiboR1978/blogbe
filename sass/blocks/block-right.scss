@@ -1,5 +1,8 @@
 .block-right {
   width: 100%;
+  @media (min-width: 1200px) {
+    margin-left: 39px;
+  }
 
   &__header {
     padding: 13px 19px 0 19px;

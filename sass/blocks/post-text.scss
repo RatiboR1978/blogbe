@@ -1,5 +1,5 @@
 .post-text {
-  padding-left: 14%;
+  margin: 0 auto;
   padding-top: 25px;
   padding-bottom: 45px;
   max-width: 1050px;
@@ -7,25 +7,47 @@
     font-size: 1.142rem;
   }
 
+  &__wrap {
+    padding: 0 40px;
+    @media (min-width: 1200px) {
+      padding: 0;
+    }
+  }
+
   &__left-but {
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.143rem;
+    font-size: 27px;
     margin-bottom: 17px;
+    @media (min-width: 1200px) {
+      font-size: 1.143rem;
+    }
     a {
       color: $accent-color;
       padding: 10px;
       border: 1px solid $accent-color;
-      margin-right: 10px;
+      margin-right: 21px;
       margin-bottom: 10px;
+      @media (min-width: 1200px) {
+        margin-right: 10px;
+      }
     }
   }
 
   &__left-content {
     max-width: 730px;
-    font-size: 1.143rem;
-    line-height: 24px;
+    font-size: 24px;
     position: relative;
+    @media (min-width: 1200px) {
+      line-height: 24px;
+      font-size: 1.143rem;
+    }
+    p {
+      margin-top: 0;
+      @media (min-width: 1200px) {
+        margin-left: 24px;
+      }
+    }
   }
 
   &__left-content::before {
@@ -40,8 +62,11 @@
 
   &__wrap-but {
     position: absolute;
-    bottom: -20px;
+    bottom: -55px;
     left: 0;
+    @media (min-width: 1200px) {
+      bottom: -20px;
+    }
   }
 
   &__but {
@@ -49,12 +74,12 @@
     font-family: Roboto-Black, Arial, sans-serif;
     background-color: #fff;
     border: none;
-    font-size: 2rem;
+    font-size: 48px;
     color: $accent-color;
     text-decoration: underline;
     position: relative;
     cursor: pointer;
-    @media (min-width: 715px) {
+    @media (min-width: 1200px) {
       font-size: 2.57rem;
     }
   }
@@ -67,8 +92,11 @@
     border-top: 10px solid transparent;
     border-left: 20px solid $accent-color;
     border-bottom: 10px solid transparent;
-    bottom: 2px;
     right: -20px;
+    bottom: 18px;
+    @media (min-width: 1200px) {
+      bottom: 2px;
+    }
   }
 
   &__photo {
@@ -82,14 +110,28 @@
   &__right {
     max-width: 400px;
     padding-right: 50px;
+    display: none;
+    @media (min-width: 1200px) {
+      display: block;
+    }
   }
 
   &__left {
-    max-width: 520px;
-    margin-right: 20px;
+    max-width: 560px;
+    @media (min-width: 1200px) {
+      max-width: 520px;
+      margin-right: 20px;
+    }
   }
 
   &__item {
     margin-bottom: 20px;
+  }
+
+  &__hidden {
+    display: none;
+    @media (min-width: 1200px) {
+      display: block;
+    }
   }
 }

@@ -1,8 +1,18 @@
 .related-posts {
-  padding-left: 12%;
-  margin-bottom: 63px;
+  margin: 0 auto 63px;
+
   h2 {
     font-size: 3.428rem;
+    text-align: center;
+    @media (min-width: 1200px) {
+      text-align: inherit;
+    }
+  }
+
+  article {
+    @media (min-width: 1200px) {
+      max-width: 522px;
+    }
   }
 
   &__border {

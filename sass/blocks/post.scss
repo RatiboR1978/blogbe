@@ -45,13 +45,8 @@
   }
 
   &__small {
-    min-width: 111px;
-    max-width: 220px;
     overflow: hidden;
     margin-right: 14px;
-    @media (min-width: 400px) {
-      min-width: 135px;
-    }
     @media (min-width: 1200px) {
       min-width: 220px;
     }
