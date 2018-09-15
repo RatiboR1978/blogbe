@@ -2,8 +2,11 @@
   margin: 0 auto 63px;
 
   h2 {
-    font-size: 3.428rem;
+    font-size: 1.7rem;
     text-align: center;
+    @media (min-width: 640px) {
+      font-size: 3.428rem;
+    }
     @media (min-width: 1200px) {
       text-align: inherit;
     }

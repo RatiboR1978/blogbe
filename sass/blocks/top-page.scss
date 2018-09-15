@@ -1,10 +1,13 @@
 .top-page {
-  padding-top: 30px;
-  padding: 47px 41px 0;
+  padding: 23px 20px 0;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
+  @media (min-width: 640px) {
+    padding: 47px 41px 0;
+    margin-bottom: 25px;
+  }
   @media (min-width: 1200px) {
     padding: 30px 0 0;
     flex-direction: row;
@@ -14,7 +17,7 @@
 
   &__nav {
     order: 2;
-    margin-left: 16px;
+    margin-left: 8px;
     a:nth-child(2) {
       display: none;
     }
@@ -30,10 +33,16 @@
       border-right: 7px solid #b20000;
       border-bottom: 7px solid transparent;
       left: -12px;
-      bottom: 11px;
+      bottom: 3px;
+      @media (min-width: 640px) {
+        bottom: 11px;
+      }
       @media (min-width: 1200px) {
         display: none;
       }
+    }
+    @media (min-width: 640px) {
+      margin-left: 16px;
     }
     @media (min-width: 1200px) {
       order: 1;
@@ -45,23 +54,36 @@
   }
 
   &__search {
-    width: 321px;
-    height: 34px;
-    margin: 0;
+    width: 160px;
+    height: 17px;
+    margin: 13px 0 0;
+    @media (min-width: 640px) {
+      margin: 0;
+      width: 321px;
+      height: 34px;
+    }
     @media (min-width: 1200px) {
       width: 271px;
     }
     input {
-      font-size: 16px;
-      padding: 18px 7px 18px;
+      font-size: 8px;
+      padding: 9px 3px;
+      @media (min-width: 640px) {
+        font-size: 16px;
+        padding: 18px 7px;
+      }
       @media (min-width: 1200px) {
         font-size: 14px;
         padding: 8px 7px;
       }
     }
     img {
-      top: 16px;
-      right: 17px;
+      top: 8px;
+      right: 8px;
+      @media (min-width: 640px) {
+        top: 16px;
+        right: 17px;
+      }
       @media (min-width: 1200px) {
         top: 5px;
         right: 8px;
@@ -71,8 +93,12 @@
 
   nav a {
     color: $accent-color;
-    font-size: 30px;
-    margin-right: 48px;
+    font-size: 15px;
+    margin-right: 24px;
+    @media (min-width: 640px) {
+      font-size: 30px;
+      margin-right: 48px;
+    }
     @media (min-width: 1200px) {
       font-size: 16px;
       margin-right: 24px;

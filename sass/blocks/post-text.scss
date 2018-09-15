@@ -1,14 +1,18 @@
 .post-text {
-  margin: 0 auto;
-  padding-top: 25px;
-  padding-bottom: 45px;
-  max-width: 1050px;
+  margin: 0 auto 20px;
+  padding-top: 12px;
+  padding-bottom: 22px;
+  max-width: 640px;
+  @media (min-width: 1200px) {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    max-width: 1050px;
+  }
   h4 {
     font-size: 1.142rem;
   }
 
   &__wrap {
-    padding: 0 40px;
     @media (min-width: 1200px) {
       padding: 0;
     }
@@ -17,17 +21,26 @@
   &__left-but {
     display: flex;
     flex-wrap: wrap;
-    font-size: 27px;
-    margin-bottom: 17px;
+    font-size: 13px;
+    margin-bottom: 8px;
+    @media (min-width: 640px) {
+      font-size: 27px;
+      margin-bottom: 17px;
+    }
     @media (min-width: 1200px) {
       font-size: 1.143rem;
     }
     a {
       color: $accent-color;
-      padding: 10px;
+      padding: 5px;
       border: 1px solid $accent-color;
-      margin-right: 21px;
-      margin-bottom: 10px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      @media (min-width: 640px) {
+        padding: 10px;
+        margin-right: 21px;
+        margin-bottom: 10px;
+      }
       @media (min-width: 1200px) {
         margin-right: 10px;
       }
@@ -35,10 +48,13 @@
   }
 
   &__left-content {
-    max-width: 730px;
-    font-size: 24px;
+    font-size: 12px;
     position: relative;
+    @media (min-width: 640px) {
+      font-size: 24px;
+    }
     @media (min-width: 1200px) {
+      max-width: 730px;
       line-height: 24px;
       font-size: 1.143rem;
     }
@@ -54,16 +70,22 @@
     position: absolute;
     content: '';
     width: 100%;
-    height: 56px;
+    height: 28px;
     background: linear-gradient(to top, rgba(255,255,255,1) 44%,rgba(255,255,255,0) 100%);
     bottom: 0;
     left: 0;
+    @media (min-width: 640px) {
+      height: 56px;
+    }
   }
 
   &__wrap-but {
     position: absolute;
-    bottom: -55px;
+    bottom: -27px;
     left: 0;
+    @media (min-width: 640px) {
+      bottom: -55px;
+    }
     @media (min-width: 1200px) {
       bottom: -20px;
     }
@@ -74,11 +96,14 @@
     font-family: Roboto-Black, Arial, sans-serif;
     background-color: #fff;
     border: none;
-    font-size: 48px;
+    font-size: 24px;
     color: $accent-color;
     text-decoration: underline;
     position: relative;
     cursor: pointer;
+    @media (min-width: 640px) {
+      font-size: 48px;
+    }
     @media (min-width: 1200px) {
       font-size: 2.57rem;
     }
@@ -93,7 +118,10 @@
     border-left: 20px solid $accent-color;
     border-bottom: 10px solid transparent;
     right: -20px;
-    bottom: 18px;
+    bottom: 2px;
+    @media (min-width: 640px) {
+      bottom: 18px;
+    }
     @media (min-width: 1200px) {
       bottom: 2px;
     }
@@ -117,7 +145,12 @@
   }
 
   &__left {
-    max-width: 560px;
+    padding-left: 20px;
+    padding-right: 20px;
+    @media (min-width: 640px) {
+      padding: 0;
+      max-width: 560px;
+    }
     @media (min-width: 1200px) {
       max-width: 520px;
       margin-right: 20px;

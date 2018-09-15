@@ -22,7 +22,10 @@
   }
 
   &__title {
-    width: 280px;
+    width: 140px;
+    @media (min-width: 640px) {
+      width: 280px;
+    }
     @media (min-width: 1200px) {
       width: 100%;
     }
@@ -46,7 +49,12 @@
 
   &__small {
     overflow: hidden;
-    margin-right: 14px;
+    margin-right: 7px;
+    max-width: 135px;
+    @media (min-width: 640px) {
+      margin-right: 14px;
+      max-width: 270px;
+    }
     @media (min-width: 1200px) {
       min-width: 220px;
     }
