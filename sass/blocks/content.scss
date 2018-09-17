@@ -187,7 +187,7 @@
   &__three-photo {
     display: inline-block;
     vertical-align: top;
-    max-width: 128px;
+    max-width: 137px;
     margin-right: 9px;
     @media (min-width: 640px) {
       max-width: 270px;
@@ -210,6 +210,13 @@
   &__three-photo:first-child {
     @media (max-width: 639px) {
       margin-right: 6px;
+    }
+  }
+
+  &__three-photo:nth-child(2) {
+    margin-right: 0;
+    @media (max-width: 639px) {
+
     }
   }
 
@@ -250,9 +257,10 @@
   &__list-post {
     padding-bottom: 62px;
     margin-bottom: 30px;
-    padding-right: 39px;
+    padding-right: 22px;
     @media (min-width: 640px) {
       padding-bottom: 30px;
+      padding-right: 39px;
     }
     @media (max-width: 1199px) {
       border-bottom: 1px solid #cccccc;
