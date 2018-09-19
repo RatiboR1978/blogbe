@@ -7,6 +7,7 @@
     padding-top: 25px;
     padding-bottom: 45px;
     max-width: 1050px;
+    margin-left: 24px;
   }
   h4 {
     font-size: 1.142rem;
@@ -60,9 +61,6 @@
     }
     p {
       margin-top: 0;
-      @media (min-width: 1200px) {
-        margin-left: 24px;
-      }
     }
   }
 
@@ -92,6 +90,7 @@
   }
 
   &__but {
+    padding-left: 0;
     margin-top: 0;
     font-family: Roboto-Black, Arial, sans-serif;
     background-color: #fff;
@@ -133,6 +132,9 @@
       height: 61px;
       min-width: 70px;
     }
+    @media (min-width: 1200px) {
+      width: 92px;
+    }
   }
 
   &__right {
@@ -147,6 +149,7 @@
   &__left {
     padding-left: 20px;
     padding-right: 20px;
+    max-width: 275px;
     @media (min-width: 640px) {
       padding: 0;
       max-width: 560px;
