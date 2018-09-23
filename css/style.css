@@ -1549,22 +1549,17 @@ img {
         top: 37px;
         right: 20px; } }
   .mobile-nav__list {
+    font-family: Roboto-Black, Arial, sans-serif;
     display: none;
     max-width: 274px;
     background-color: #e9e9e9;
     position: absolute;
-    top: 50px;
-    left: 17px;
     z-index: 100;
-    padding: 5px 5px 0;
-    font-size: 12px; }
+    font-size: 14px; }
     @media (min-width: 640px) {
       .mobile-nav__list {
         max-width: 535px;
-        top: 90px;
-        left: 37px;
-        padding: 15px 15px 0;
-        font-size: 14px; } }
+        font-size: 29px; } }
     .mobile-nav__list a {
       display: block;
       color: black;
@@ -1574,15 +1569,47 @@ img {
         .mobile-nav__list a {
           margin-bottom: 15px; } }
       .mobile-nav__list a span {
-        color: #b2b2b2; }
-  .mobile-nav__list--active {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+        color: #b2b2b2;
+        display: none; }
+  .mobile-nav__list-activities {
+    display: block;
+    top: 50px;
+    left: 17px;
+    padding: 5px 5px 0 14px;
+    width: 78px; }
+    @media (min-width: 640px) {
+      .mobile-nav__list-activities {
+        max-width: 535px;
+        width: 152px;
+        top: 90px;
+        left: 37px;
+        padding: 15px 15px 0 28px; } }
+  .mobile-nav__list-countries {
+    display: block;
+    top: 50px;
+    left: 122px;
+    padding: 5px 5px 0 14px;
+    width: 78px; }
+    @media (min-width: 640px) {
+      .mobile-nav__list-countries {
+        max-width: 535px;
+        padding: 15px 15px 0 28px;
+        width: 156px;
+        top: 90px;
+        left: 243px; } }
+  .mobile-nav__list-cities {
+    display: block;
+    top: 50px;
+    right: 18px;
+    padding: 5px 5px 0 14px;
+    width: 78px; }
+    @media (min-width: 640px) {
+      .mobile-nav__list-cities {
+        max-width: 535px;
+        padding: 15px 15px 0 28px;
+        width: 156px;
+        top: 90px;
+        right: 38px; } }
 
 .page {
   margin-top: 23px; }
