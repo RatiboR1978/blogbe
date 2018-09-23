@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="block-left">
+    <div class="sidebar">
+      <header class="header">
+        <div class="header__logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+      </header>
+      <aside class="list">
+        <div class="list__item">
+          <h5>Activities</h5>
+          <ul id="activitiesList">
+            <li><a href="#">Travel <span>9326</span></a></li>
+            <li><a href="#">To do <span>136</span></a></li>
+            <li><a href="#">To see <span>941</span></a></li>
+            <li><a href="#">Spa <span>7742</span></a></li>
+            <li><a href="#">Kids <span>6893</span></a></li>
+            <li><a href="#">Park <span>256</span></a></li>
+          </ul>
+          <span class="list__show">Show all</span>
+        </div>
+        <div class="list__item">
+          <h5>Countries</h5>
+          <ul>
+            <li><a href="#">Australia <span>9326</span></a></li>
+            <li><a href="#">Canada <span>136</span></a></li>
+            <li><a href="#">Colombia <span>941</span></a></li>
+            <li><a href="#">France <span>7742</span></a></li>
+            <li><a href="#">Germany <span>6893</span></a></li>
+            <li><a href="#">Greece <span>256</span></a></li>
+            <li><a href="#">Iceland <span>256</span></a></li>
+          </ul>
+          <span class="list__show">Show all</span>
+        </div>
+        <div class="list__item">
+          <h5>Cities</h5>
+          <ul>
+            <li><a href="#">Amsterdam <span>9326</span></a></li>
+            <li><a href="#">Athens <span>136</span></a></li>
+            <li><a href="#">Bangkok <span>941</span></a></li>
+            <li><a href="#">Berlin <span>7742</span></a></li>
+            <li><a href="#">Cali <span>6893</span></a></li>
+            <li><a href="#">Dublin <span>256</span></a></li>
+            <li><a href="#">Kyoto <span>256</span></a></li>
+          </ul>
+          <span class="list__show">Show all</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <div class="block-right">
+    <section class="content">
+      <div class="block-right__header wrap">
+        <div class="block-right__header-logo">
+          <div class="header__logo"><a href="index.html"><img src="img/logo-mob.png" alt="logo"></a></div>
+        </div>
+        <div class="header__wrap page__header">
+          <div class="block-right__header-title">
+            <h1>Popular travel posts
+              from all world destinations</h1>
+          </div>
+          <div class="content__search block-right__search">
+            <form action="#">
+              <input class="content__input-search" type="search" placeholder="Search any travel keywords">
+            </form>
+            <img src="img/svg/lens.svg" alt="lens">
+          </div>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <div class="mobile-nav__wrap wrap">
+          <button class="mobile-nav__item" id="activities">Activities</button>
+          <button class="mobile-nav__item">Countries</button>
+          <button class="mobile-nav__item">Cities</button>
+          <div class="mobile-nav__list"></div>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="popular-posts page">
+        <h2>Popular posts from all world destinations</h2>
+        <div class="content__search">
+          <form action="#">
+            <input class="content__input-search" type="search" placeholder="Search any travel keywords">
+          </form>
+          <svg id="lens" data-name="lens" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.56 17.41"><defs><style>.cls-1{fill:#666666;}</style></defs><title>lens</title><path class="cls-1" d="M371,676.42l3.3-3.71a7.67,7.67,0,0,0,4.14,1.21,7.4,7.4,0,1,0-7.56-7.4,7.18,7.18,0,0,0,1.12,3.86l-3.34,3.39a1.9,1.9,0,0,0,2.34,2.65Zm7.44-4.44a5.35,5.35,0,1,1,5.35-5.34A5.34,5.34,0,0,1,378.41,672Zm-8.73,4.44" transform="translate(-368.42 -659.13)"/></svg>
+        </div>
+        <div class="popular-posts__list">
+          <div class="popular-posts__left">
+            <article class="post wrap">
+              <div class="post__photo post__small">
+                <img src="img/destinations.jpg" alt="destinations">
+              </div>
+              <div class="post__title">
+                <h4><a href="post.html" class="black">6 Lesbian Destinations in Europe to visit this winter</a></h4>
+                <a href="#" class="source">onlyonce.today <br>Europe</a>
+              </div>
+            </article>
+            <article class="post wrap">
+              <div class="post__photo post__small">
+                <img src="img/unesco.jpg" alt="unesco">
+              </div>
+              <div class="post__title">
+                <h4><a href="#" class="black">A fulfilling resolution: visit the UNESCO World Heritage Sites</a></h4>
+                <a href="#" class="source">helifestylehunter.com <br>India</a>
+              </div>
+            </article>
+            <article class="post wrap">
+              <div class="post__photo post__small">
+                <img src="img/countries.jpg" alt="countries">
+              </div>
+              <div class="post__title">
+                <h4><a href="#" class="black">13 Unknown Countries In Europe You Really Should Visit</a></h4>
+                <a href="#" class="source">helifestylehunter.com <br>India</a>
+              </div>
+            </article>
+            <article class="post wrap">
+              <div class="post__photo post__small">
+                <img src="img/coming-soon.jpg" alt="coming-soon">
+              </div>
+              <div class="post__title">
+                <h4><a href="#" class="black">Coming Soon: Europe’s First Underwater Restaurant</a></h4>
+                <a href="#" class="source">onlyonce.today <br>Europe</a>
+              </div>
+            </article>
+            <article class="post wrap">
+              <div class="post__photo post__small">
+                <img src="img/chrictmas.jpg" alt="chrictmas">
+              </div>
+              <div class="post__title">
+                <h4><a href="#" class="black">10 Danish Christmas Traditions</a></h4>
+                <a href="#" class="source">onlyonce.today <br>Europe</a>
+              </div>
+            </article>
+            <article class="post wrap">
+              <div class="post__photo post__small">
+                <img src="img/arctic-hotel.jpg" alt="arctic-hotel">
+              </div>
+              <div class="post__title">
+                <h4><a href="#" class="black">This Arctic Hotel Is Perfect for People Who Hate People</a></h4>
+                <a href="#" class="source">helifestylehunter.com <br>India</a>
+              </div>
+            </article>
+          </div>
+          <div class="popular-posts__right">
+            <article class="popular-posts__item">
+              <img src="img/villages2.jpg" alt="villages">
+              <div class="popular-posts__item-title">
+                <h4><a href="#" class="black">4 Fairytale Villages in Europe You Must Visit</a></h4>
+                <a href="#" class="source">suttonandgrove.com, India</a>
+              </div>
+            </article>
+            <article class="popular-posts__item">
+              <img src="img/stuff.jpg" alt="stuff">
+              <div class="popular-posts__item-title">
+                <h4><a href="#" class="black">WHY WE SOLD OUR STUFF TO TRAVEL THE WORLD | Sutton and Grove</a></h4>
+                <a href="#" class="source">suttonandgrove.com, India</a>
+              </div>
+            </article>
+            <article class="popular-posts__item">
+              <img src="img/travel-gear.jpg" alt="travel-gear">
+              <div class="popular-posts__item-title">
+                <h4><a href="#" class="black">The ultimate packing list - travel gear and travel check list for fool proof backpackers</a></h4>
+                <a href="#" class="source">suttonandgrove.com, India</a>
+              </div>
+            </article>
+            <article class="popular-posts__item">
+              <img src="img/bergensbanen.jpg" alt="bergensbanen">
+              <div class="popular-posts__item-title">
+                <h4><a href="#" class="black">Bergensbanen - the most beautiful train ride in Europe • A Woman Afoot</a></h4>
+                <a href="#" class="source">suttonandgrove.com, India</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

@@ -15,7 +15,7 @@ let gulp       = require('gulp'), // Подключаем Gulp
 
 gulp.task('sass', function(){ // Создаем таск Sass
 	return gulp.src('sass/style.scss') // Берем источник
-        .pipe(plumber()) // Следим за ошибками
+		.pipe(plumber()) // Следим за ошибками
 		.pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
 		.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
 		.pipe(gulp.dest('css')) // Выгружаем результата в папку css
@@ -35,8 +35,7 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 
 gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
-		'libs/jquery/dist/jquery.min.js', // Берем jQuery
-		'libs/magnific-popup/dist/jquery.magnific-popup.min.js' // Берем Magnific Popup
+
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
 		.pipe(uglify()) // Сжимаем JS файл

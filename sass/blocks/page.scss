@@ -1,0 +1,9 @@
+.page {
+  margin-top: 23px;
+
+  &__header {
+    @media (min-width: 1200px) {
+      display: none;
+    }
+  }
+}
