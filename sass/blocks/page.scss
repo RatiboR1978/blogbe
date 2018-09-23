@@ -6,4 +6,14 @@
       display: none;
     }
   }
+
+  &__pagination {
+    margin-left: 27px;
+    @media (min-width: 640px) {
+      margin-left: 97px;
+    }
+    @media (min-width: 1200px) {
+      margin: 30px auto 220px;
+    }
+  }
 }

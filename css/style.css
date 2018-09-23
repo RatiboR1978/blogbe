@@ -1616,3 +1616,11 @@ img {
   @media (min-width: 1200px) {
     .page__header {
       display: none; } }
+  .page__pagination {
+    margin-left: 27px; }
+    @media (min-width: 640px) {
+      .page__pagination {
+        margin-left: 97px; } }
+    @media (min-width: 1200px) {
+      .page__pagination {
+        margin: 30px auto 220px; } }
